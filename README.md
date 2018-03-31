@@ -9,7 +9,7 @@ Plans for further development include:
 4.	Add input for the user to control the time delay for the slideshow.
 
 Notes:
-1.	Path names will have to be changed to get this to work on your pc.
+1.	Path names in the slideShow.js file may have to be changed to get this to work on your pc.
 2.	You will have to hard code the number of images in your images/wallpaper folder into the JavaScript file. Also, to the best of my knowledge JavaScript cannot dynamically modify folders on your system to pull out image quantities and names so I have forced the naming of images to be wp_1.jpg through wp_x.jpg (where x is the number of images in your folder).
 3.	I only include five pictures I took while hiking. Feel free to add tons of your own.
 4.	I sized the icons to 52px X 52px and the control buttons were sized to 30px X 30px.
