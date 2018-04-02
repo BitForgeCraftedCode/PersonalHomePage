@@ -10,10 +10,9 @@ Plans for further development include:
 
 Notes:
 1.	To use this program place PersonalHomePage folder anywhere you like on your pc then set your internet browser to open PersonalHomePage.html as your home/landing page. 
-2.	Path names may have to be changed to get this to work on your pc see line 19. I made the url a relative path so this should work as is. 
-3.	For now, you will have to hard code the number of images in your images/wallpaper folder into the JavaScript file see line 17. Also, to the best of my knowledge JavaScript cannot dynamically modify folders on your system to pull out image quantities and names so I have forced the naming of images to be wp1.jpg through wpx.jpg (where x is the number of images in your folder).
-4.	For now, to adjust slide show time delay change the number of milliseconds on lines 44, 84, and 88. Currently set at 5000 milliseconds (5 seconds). 
-5.	I only include five pictures I took while hiking. Feel free to add tons of your own.
-6.	I sized the icons to 52px X 52px and the control buttons were sized to 30px X 30px.
-7.	Feel free to use and modify this code for any use and or join the project. 
-8.	I build this to demonstrate a solid understanding of basic JavaScript functions, scope, and time-controlled loops.  Enjoy
+2.	For now, you will have to hard code the number of images in your images/wallpaper folder into the JavaScript file see line 17. Also, to the best of my knowledge JavaScript cannot dynamically modify folders on your system to pull out image quantities and names so I have forced the naming of images to be wp1.jpg through wpx.jpg (where x is the number of images in your folder).
+3.	For now, to adjust slide show time delay change the number of milliseconds on lines 44, 84, and 88. Currently set at 5000 milliseconds (5 seconds). 
+4.	I only include five pictures I took while hiking. Feel free to add tons of your own.
+5.	I sized the icons to 52px X 52px and the control buttons were sized to 30px X 30px.
+6.	Feel free to use and modify this code for any use and or join the project. 
+7.	I build this to demonstrate a solid understanding of basic JavaScript functions, scope, and time-controlled loops.  Enjoy
