@@ -16,4 +16,4 @@ Notes:
 5.	I only include five pictures I took while hiking. Feel free to add tons of your own.
 6.	I sized the icons to 52px X 52px and the control buttons were sized to 30px X 30px.
 7.	Feel free to use and modify this code for any use and or join the project. 
-8.	I build this to demonstrate a solid understanding of basic JavaScript functions, loops, scope, and time-controlled loops.  Enjoy
+8.	I build this to demonstrate a solid understanding of basic JavaScript functions, scope, and time-controlled loops.  Enjoy
