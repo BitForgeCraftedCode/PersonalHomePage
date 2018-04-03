@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html id = "bg" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  <link rel="icon" href="images/home.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="slideShow.js"></script>
+</head>
+<body>
+
+  	<!-- A personal home page for your browser -->
+  	<!-- Display search bars for Google and Bing -->
+  	<div class="SearchBars">
+
+		<iframe src="https://duckduckgo.com/search.html?duck=yes&prefill=Search DuckDuckGo" class = "searchDuckDuck"></iframe>
+
+		<form action="http://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+		<input name="sitesearch" type="hidden" value="">
+		<input autocomplete="on" class="form-controls search" name="q" placeholder="Search Google" required="required"  type="text">
+		</form>
+
+		<form action="http://www.bing.com/search" class="searchform" method="get" name="searchform" target="_blank">
+		<input name="sitesearch" type="hidden" value="">
+		<input autocomplete="on" class="form-controls search" name="q" placeholder="Search Bing" required="required"  type="text">
+		</form>
+
+	</div>
+
+<!-- Display navigation for hot shortcuts -->
+
+	<nav class="shortcuts">
+		<ul>
+  			<li><a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter"></a></li>
+  			<li><a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest.png" alt="Pinterest"></a></li>
+  			<li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a></li>
+  			<li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="Linkedin"></a></li>
+  			<li><a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="YouTube"></a></li>
+  			<li><a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin#identifier" target="_blank"><img src="images/gmail.png" alt="Gmail"></a></li>
+  			<li><a href="https://www.google.com/" target="_blank"><img src="images/google.png" alt="Google"></a></li>
+  			<li><a href="https://www.google.com/maps" target="_blank"><img src="images/google_maps.png" alt="Google Maps"></a></li>
+
+		</ul>
+	</nav>
+
+	<nav class="shortcuts2">
+		<ul>
+			<li><a href="https://www.amazon.com/" target="_blank"><img src="images/amazon.png" alt="Amazon"></a></li>
+			<li><a href="https://www.ebay.com/" target="_blank"><img src="images/ebay.png" alt="ebay"></a></li>
+			<li><a href="https://weather.com/" target="_blank"><img src="images/weather.png" alt="Weather"></a></li>
+			<li><a href="https://www.netflix.com/" target="_blank"><img src="images/Netflix.png" alt="Netflix"></a></li>
+			<li><a href="https://www.bing.com/" target="_blank"><img src="images/bing.png" alt="Bing"></a></li>
+  			<li><a href="https://duckduckgo.com/" target="_blank"><img src="images/duckduckgo.png" alt="DuckDuckGo"></a></li>
+  			<li><a href="https://www.msn.com/" target="_blank"><img src="images/MSN.png" alt="MSN"></a></li>
+  			<li><a href="https://github.com/" target="_blank"><img src="images/github.png" alt="Github"></a></li>
+
+		</ul>
+	</nav>
+
+
+	<div class = "controls">
+		<input type="image" class = "control" id="Previous" src="images/controls/Backward_Skip.png" alt="Previous">
+		<input type="image" class = "control" id="Stop" src="images/controls/Stop.png" alt="Stop">
+		<input type="image" class = "control" id="Next" src="images/controls/Forward_Skip.png" alt="Next">
+		<input type="image" class = "control" id="Replay" src="images/controls/Replay.png" alt="Replay">
+
+	</div>
+
+
+</body>
+</html>
